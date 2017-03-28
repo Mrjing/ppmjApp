@@ -1,47 +1,49 @@
-body{
-	height: 100%;
-	width: 100%;
-	margin:0;
-	padding:0;
-	font-size: 40px;
-	background: rgb(245,245,245);
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    background: rgb(245, 245, 245);
 }
 
-#img{
-	margin:150px 0 50px;
-	text-align:center;
-}
-	
-#img span{
-	display: block;
+#img {
+    margin: 100px 0 50px;
+    text-align: center;
 }
 
-#desc{
-	font-size: 65px;
-	width:80%;
-	margin:100px auto 150px;
+#img span {
+    display: block;
 }
 
-#download{
-	margin:50px 0;
-	text-align:center;
+#desc {
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 50px auto 80px;
 }
 
+#download {
+    margin: 20px 0;
+    text-align: center;
+}
 
 #download a {
     display: inline-block;
     width: 550px;
     height: 150px;
-    margin:25px auto;
+    margin: 25px auto;
 }
 
 #download .download-ios {
     background: url(../image/iOS.png) no-repeat;
     background-size: contain;
-
+    width: 9rem;
+    height: 3rem;
 }
 
 #download .download-android {
     background: url(../image/android.png) no-repeat;
     background-size: contain;
+    width: 9rem;
+    height: 3rem;
 }
